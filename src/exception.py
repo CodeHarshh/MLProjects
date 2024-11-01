@@ -1,5 +1,6 @@
 import sys  #it will contain all information about the errors
 import logging
+from logger import logging
 
 def error_messeage_details(error,error_details:sys):
    _,_,exc_tb= error_details.exc_info() #it will give 3 output , but we need 3rd one it give where exp occure which line
